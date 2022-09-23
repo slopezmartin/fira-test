@@ -1,0 +1,26 @@
+
+0. Crear proyecto a partir del jar
+	
+1.	Crear entidad Person con 2 atributos
+		id - clave primaria 	
+		name 
+		
+2.  Crear interface PersonService con un método getListByName
+    3.1 crear implementación PersonServiceImpl de PersonService
+	
+3. Crear método en repository que obtenga un List a partir del atributo name
+
+4. Implementar en el test PersonServiceImplTest el método getListByName
+
+5. Crear método en PersonServiceImpl que obtenga un array de id's. Utilizar una lambda o stream.
+
+6. Sube a git los cambios, explicando en el commit el trabajo realizado
+ 6.1 añade al gitignore los ficheros de *.log
+
+
+Preguntas:
+
+ Lazy vs Eagger
+ Projections Spring Data Rest 
+ @Transactional
+
