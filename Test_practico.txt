@@ -5,7 +5,7 @@
 		id - clave primaria 	
 		name 
 		
-2.  Crear interface PersonService con un método getListByName
+2.  Crear interface PersonService con un método getListByName y reciba como parámetro el nombre
     3.1 crear implementación PersonServiceImpl de PersonService
 	
 3. Crear método en repository que obtenga un List a partir del atributo name
@@ -20,7 +20,17 @@
 
 Preguntas:
 
+Como es tu día a día en el proyecto
+ Stack que utilizas
+Metodologías ágiles
+ Eliges la tarjeta o te la asignan
+
+Versión de Java
+
  Lazy vs Eagger
+ Bucle
+
  Projections Spring Data Rest 
  @Transactional
+    -> si las consultas son de solo lectura, cómo lo gestionarías.
 

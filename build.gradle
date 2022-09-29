@@ -35,13 +35,13 @@ allprojects {
 	}
 
 	repositories {
-		maven {
-			credentials {
-				username = nexusUsername
-				password = nexusPassword
-			}
-			url "https://nexus.cwsfirabarcelona.com/repository/maven-public/"
-		}
+//		maven {
+//			credentials {
+//				username = nexusUsername
+//				password = nexusPassword
+//			}
+//			url "https://nexus.cwsfirabarcelona.com/repository/maven-public/"
+//		}
 		mavenCentral()
 	}
 
