@@ -1,36 +1,43 @@
+Preguntas:
 
-0. Crear proyecto a partir del jar
-	
-1.	Crear entidad Person con 2 atributos
-		id - clave primaria 	
-		name 
+-Como es tu día a día en el proyecto
+ -- Stack que utilizas
+ -- ¿Metodologías ágiles?
+ -- ¿Eliges la tarjeta o te la asignan?
+
+- Versiones de Java
+
+- Diferencia entre Lazy vs Eagger
+  Bucle
+
+- ¿Qué tipos de Projections conoces? Spring Data Rest
+- ¿Qué significa que una clase o método tenga @Transactional?
+    -> Si quieres que las consultas sean de de solo lectura, ¿Cómo lo configurarías?
+
+
+
+Práctica
+
+1.	Crear una entidad Person con sus anotaciones
+        Añadir variable id como clave primaria
+        Añadir variable string name
+        Getters/Setters , etc.
 		
-2.  Crear interface PersonService con un método getListByName y reciba como parámetro el nombre
-    3.1 crear implementación PersonServiceImpl de PersonService
-	
-3. Crear método en repository que obtenga un List a partir del atributo name
+2.  Crear un service PersonService. Tipo interface. Tenga un método llamado getListByName, que reciba como parámetro un string name y devuelva una collection/list/etc
+    3.1 crear clase que implemente PersonService (PersonServiceImpl)
+
+3. Crear un repositorio para la entidad Person
+  3.1 - Crear un método utilizando JPA, que obtenga una lista de Person buscando por name
+
+4. Implementar en PersonServiceImpl el método getListByName, accediendo al repositorio PersonRepository creado en el punto 3.
 
 4. Implementar en el test PersonServiceImplTest el método getListByName
 
-5. Crear método en PersonServiceImpl que obtenga un array de id's. Utilizar una lambda o stream.
+5. Crear otro método en PersonServiceImpl que obtenga una colection/list/etc. de id's utilizando una lambda/stream.
 
 6. Sube a git los cambios, explicando en el commit el trabajo realizado
- 6.1 añade al gitignore los ficheros de *.log
 
+Extra ball 1 Añade al gitignore los ficheros de *.log
+Extra ball 2 Que el proyecto compile
 
-Preguntas:
-
-Como es tu día a día en el proyecto
- Stack que utilizas
-Metodologías ágiles
- Eliges la tarjeta o te la asignan
-
-Versión de Java
-
- Lazy vs Eagger
- Bucle
-
- Projections Spring Data Rest 
- @Transactional
-    -> si las consultas son de solo lectura, cómo lo gestionarías.
 
