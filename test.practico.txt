@@ -1,18 +1,18 @@
 Preguntas:
 
--Como es tu día a día en el proyecto
- -- Stack que utilizas
- -- ¿Metodologías ágiles?
- -- ¿Eliges la tarjeta o te la asignan?
+1. Como es tu día a día en el proyecto
+ 1.1 - Stack que utilizas: backend/ frontend 	
+ 1.2 - ¿Qué metodologís utilizáis para gestioanr el equipo?¿Ágiles?
+ 1.3 - ¿Eliges la tarjeta o te la asignan?
 
-- Versiones de Java
+2. ¿Qué versiones de Java conoces?
 
-- Diferencia entre Lazy vs Eagger
+3. Diferencia entre Lazy vs Eagger
   Bucle
 
-- ¿Qué tipos de Projections conoces? Spring Data Rest
-- ¿Qué significa que una clase o método tenga @Transactional?
-    -> Si quieres que las consultas sean de de solo lectura, ¿Cómo lo configurarías?
+4. ¿Qué tipos de Projections conoces? Spring Data Rest
+5. ¿Qué significa que una clase o método tenga @Transactional?
+   5.1 -Si quieres que las consultas sean de de solo lectura, ¿Cómo lo configurarías?
 
 
 
@@ -31,13 +31,17 @@ Práctica
 
 4. Implementar en PersonServiceImpl el método getListByName, accediendo al repositorio PersonRepository creado en el punto 3.
 
-4. Implementar en el test PersonServiceImplTest el método getListByName
+5. Implementar en el test PersonServiceImplTest el método getListByName
 
-5. Crear otro método en PersonServiceImpl que obtenga una colection/list/etc. de id's utilizando una lambda/stream.
+6. Crear otro método en PersonServiceImpl que obtenga una colection/list/etc. de id's utilizando una lambda/stream.
 
-6. Sube a git los cambios, explicando en el commit el trabajo realizado
+7. Crear un controller que reciba como parámetro en la url un string. Este controller debe llamar al PersonService.getListByName
 
-Extra ball 1 Añade al gitignore los ficheros de *.log
-Extra ball 2 Que el proyecto compile
+8. Implementa el test del controller
+
+9. Sube a git los cambios, explicando en el commit el trabajo realizado
+
+EB1 - Añade al gitignore los ficheros de *.log
+EB2 - Proyecto que compile
 
 
